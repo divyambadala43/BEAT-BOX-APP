@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body
+{
+    background: #360033;
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);
+    background: linear-gradient(to right, #0b8793, #360033);
+    background-size: cover;
+
+}
+p
+{
+    
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffefba 0%, #ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.heading
+{
+    text-align: center;
+}
+.main
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1
+{
+    margin: 100px 0 15px 0;
+    font-size: 50px;
+    background: linear-gradient(to right, #ffefba 0%, #ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.keys
+{
+    width: 100%;
+    background: transparent;
+    display: flex;
+}
+.keys > div
+{
+    height: 150px;
+    width: 150px;
+    flex: 1;
+    margin-bottom: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 12px;
+}
+.key1
+{
+    background: #ffbe76;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.key2
+{
+    background: #ff7979;
+    margin-right: 5px;
+}
+.key3
+{
+    background: #badc58;
+    margin-right: 5px;
+}
+.key4
+{
+    background: #7ed6df;
+    margin-right: 5px;
+}
+.key5
+{
+    background: #e056fd;
+    margin-right: 5px;
+}
+.key6
+{
+    background: #686de0;
+    margin-right: 5px;
+}
+.key7
+{
+    background: #30336b;
+    margin-right: 5px;
+}
+.key8
+{
+    background: #95afc0;
+    margin-right: 5px;
+}
+.key9
+{
+    background: #22a6b3;
+    margin-right: 5px;
+}
+.key10
+{
+    background: #e84118;
+    margin-right: 5px;
+}
+.key11
+{
+    background: #7f8fa6;
+    margin-right: 5px;
+}
+.key12
+{
+    background: #6F1E51;
+    margin-right: 5px;
+}
+.animation > div
+{
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+    height: 100px;
+    width: 100px;
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+    transform: scale(1);
+}
+@keyframes jump {
+    0% {
+      bottom: 0%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    100% {
+      bottom: 00%;
+      left: 80%;
+    }
+  }
+
